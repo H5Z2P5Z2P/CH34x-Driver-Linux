@@ -26,6 +26,9 @@ load or unload linux driver of CH34x
 ```bash
 make load
 make unload
+
+make install
+depmod -a
 ```
 
 Check the usbserial modules your system loaded.
